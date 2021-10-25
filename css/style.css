@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Press Start 2P", cursive;
+}
+
+body{
+
+    width: 100vw;
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../assets/background2.gif');
+    background-size: cover;
+
+
+} 
+
+.home{
+    width: 90vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .home-logo{
+    width: 600px;
+}
+
+.home .btn{
+  background-color: #fffb0f;
+  padding: 15px 30px 15px 30px;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px #0000007e;
+  margin: 3%;
+
+    animation: opacity 0.6s linear infinite forwards;
+}
+
+@keyframes opacity {
+    0% { opacity: 0;}
+    100% {opacity: 1;}}
+
+
+.home p{
+    margin-top: 10px;
+    color: white;
+    font-weight: bolder;
+
+    font-size: 12px;
+}  
+
+#soundToggle{
+font-size: 40px;
+color: white;
+cursor: pointer;
+
+outline: none;
+border:none;
+background-color: transparent;
+
+align-self: flex-end;
+margin-right: 5%;
+}
+
+.content{
+    display: none;
+}
+
+.background {
+
+    width: 100%;
+    height: 100vh ;
+    position: absolute;
+    bottom: 0;
+
+    padding: 60px;
+
+    
+  }
+
+.time-and-score{
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.151);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    color: white;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #141414;
+}
+
+.time-and-score #score{
+
+    margin-right: 50px;
+}
+
+
+.player{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    bottom:0;
+}
+
+.obstacle{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    bottom:0;
+}
+
+.gameOver{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+
+    background-color: #00000060;
+}
+
+.gameOver h1{
+
+    font-size: 60px;
+    margin-bottom: 30px;
+
+    color: white;
+
+    font-weight: bold;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #141414;
+}
+
+.gameOver h3{
+
+    font-size: 40px;
+    margin: 10px;
+
+    color: #fffb0f;
+
+    font-weight: bold;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #070707;
+
+}
+
+.gameOver button{
+    background-color: #fffb0f;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #0000007e;
+    margin: 3%;
+}

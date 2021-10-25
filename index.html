@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonic Challenge</title>
+    <link href='./css/style.css' rel='stylesheet' type='text/css'>
+    <link href='./assets/logo.png' type='image png' rel='icon'>
+<!--font--><link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<!--icons--><script src="https://kit.fontawesome.com/d2883e7411.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!--Gameboard-->
+        <div class='background'> 
+
+            <div class='home'>
+                <button onclick='sound(this)' id='soundToggle'><i class="fas fa-volume-off"></i></button>
+                <img src='./assets/home.png' class='home-logo'>
+                <button class='btn' onclick='start(this)'>START GAME</button>
+                <p>Desenvolvido por Valber Junior - <i class="far fa-copyright"></i> 2021</p>
+          
+            </div>
+
+            <div class='content'>
+                <div class='time-and-score'>
+                    <h3>SCORE: <span id='score'>0</span></h3>
+                    <h3>HIGHT SCORE: <span id='record'>0</span></h3>
+                </div>
+
+                <img src='./assets/player.gif' alt='Sonic' class='player'>
+            </div>
+
+
+        </div>   
+
+
+        <!-- Audios -->
+        <audio src="./assets/intro.mp3" id='intro' type='audio/mp3'></audio>
+        <audio src="./assets/jump.mp3" id='jump' type='audio/mp3'></audio>
+        <audio src="./assets/died.mp3" id='died' type='audio/mp3'></audio>
+        
+
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
