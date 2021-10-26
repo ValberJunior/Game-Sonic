@@ -17,8 +17,8 @@ https://user-images.githubusercontent.com/84424883/138791788-1f1029e1-be17-488b-
 ### Ojetivo
 
 Projeto de reconstrução do game do navegador Chrome, o conhecido jogo do dinossauro que é disponibilizado quando estamos sem conexão com a internet.
-Procurei fazer uma versão de um game nostálgico que nos faz relembrar a velha infância, coloquei uma roupagem agradável ao visual e também adicionei alguns aúdios, como de praxe faço em meus projetos.
-Adicionei o placar do jogo e o placar de recorde, assim como duas telas adicionais, com o home, gameboard e o gameover.
+Procurei fazer uma versão de um game nostálgico que nos faz relembrar a infância, coloquei uma roupagem agradável ao visual e também adicionei alguns aúdios, como de praxe faço em meus projetos.
+Adicionei o placar do jogo e o placar de recorde, assim como telas adicionais, com o home, gameboard e o gameover.
 
 
 <br>
