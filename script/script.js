@@ -77,6 +77,11 @@ function handleKeyUp(event){
         jump();
         }
     }
+    else if(event.keyCode === 38){
+        if(!isJumping){
+            jump();
+            }
+    }
 
 }
 
@@ -97,7 +102,7 @@ function jump(){
                 position -= 40;
                 player.style.bottom = `${position}px`;
             }
-            }, 30);
+            }, 20);
         }
         
         else{
