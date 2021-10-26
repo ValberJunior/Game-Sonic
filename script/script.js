@@ -138,7 +138,7 @@ function createObstacle(){
             // isRecord();
             setTimeout(()=>{
             clearInterval(leftInterval);
-            document.body.innerHTML = `<div class='gameOver'> <h1>GAME OVER</h1><h3>SCORE: ${actualScore}</h3><button onclick='restart(this)'>RESTART</button></div>`;
+            document.body.innerHTML = `<div class='gameOver'> <h1>GAME OVER</h1><h3>SCORE: ${actualScore}</h3><button onclick='restart(this)'>RESTART</button><button onclick='backHome(this)'>HOME</button></div>`;
             },250);
 
         }else{
@@ -165,10 +165,15 @@ function restart (){
 }
 
 function start(){
-    home.style.display ='none';
-    content.style.display = 'block';
-    createObstacle();
-    audio1.play();
+    
+   window.location.replace('../gameboard.html')
+
+}
+
+function backHome(){
+
+    window.location.replace('../index.html')
+
 }
 
 
@@ -192,7 +197,7 @@ function sound(){
 }
 
 
-
+createObstacle();
 
 updateScreen()
 

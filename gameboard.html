@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sonic Challenge - Home</title>
+    <title>Sonic Challenge</title>
     <link href='./css/style.css' rel='stylesheet' type='text/css'>
     <link href='./assets/logo.png' type='image png' rel='icon'>
 <!--font--><link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -13,14 +13,20 @@
 </head>
 <body>
 
-  
-            <div class='home'>
-                <button onclick='sound(this)' id='soundToggle'><i class="fas fa-volume-off"></i></button>
-                <img src='./assets/home.png' class='home-logo'>
-                <button class='btn' onclick='start(this)'>START GAME</button>
-                <p>Desenvolvido por Valber Junior - <i class="far fa-copyright"></i> 2021</p>
-          
-            </div>
+    <!--Gameboard-->
+        <div class='background'> 
+
+
+                <div class='time-and-score'>
+                    <h3>SCORE: <span id='score'>0</span></h3>
+                    <h3>HIGH SCORE: <span id='record'>0</span></h3>
+                </div>
+
+                <img src='./assets/player.gif' alt='Sonic' class='player'>
+    
+
+
+        </div>   
 
 
         <!-- Audios -->

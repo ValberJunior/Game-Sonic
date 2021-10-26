@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items: center;
 
-    background-image: url('../assets/background2.gif');
+    background-image: url('../assets/background.gif');
     background-size: cover;
 
 
@@ -73,9 +73,6 @@ align-self: flex-end;
 margin-right: 5%;
 }
 
-.content{
-    display: none;
-}
 
 .background {
 
@@ -90,19 +87,17 @@ margin-right: 5%;
   }
 
 .time-and-score{
-    font-size: 30px;
+    font-size: 17px;
     background-color: rgba(0, 0, 0, 0.151);
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 
     padding: 20px;
 
-    color: white;
+    color: #fffb0f;
 
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #141414;
 }
 
 .time-and-score #score{
@@ -140,7 +135,7 @@ margin-right: 5%;
 .gameOver h1{
 
     font-size: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 
     color: white;
 
@@ -173,5 +168,5 @@ margin-right: 5%;
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 10px 10px 10px #0000007e;
-    margin: 3%;
+    margin-top: 50px;
 }
