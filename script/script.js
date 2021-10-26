@@ -107,7 +107,7 @@ function jump(){
             position += 40;
              player.style.bottom = `${position}px`;
             }
-        }, 30);
+        }, 20);
 }
 
 function createObstacle(){
